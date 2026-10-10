@@ -1,0 +1,11 @@
+{
+    "description": "Show scheduled announcements to everyone, or only to servers on chosen nodes, locations or eggs.",
+    "autoload": {
+        "psr-4": {
+            "RustixDev\\Announcements\\": "src/"
+        }
+    },
+    "config": {
+        "autoloader-suffix": "AnnouncementsExtension"
+    }
+}
