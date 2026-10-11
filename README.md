@@ -27,13 +27,15 @@ Show scheduled announcements to everyone, or only to servers on chosen nodes, lo
 
 ## Install
 
-From a release archive (`announcements-1.0.0.pteroext`):
+1. Download `announcements-<version>.pteroext` from the [latest release](https://github.com/Mkkbeydoun/pterodactyl-announcements/releases/latest).
+2. In the panel, open **Admin → Extensions**, upload the file and enable it.
+3. Reload the panel.
+
+From a terminal instead:
 
 ```sh
-php artisan p:extension:install /path/to/announcements-1.0.0.pteroext --enable
+php artisan p:extension:install /path/to/announcements-<version>.pteroext --enable
 ```
-
-Or upload the archive under **Admin → Extensions**. Reload the panel afterwards.
 
 ## Build from source
 
@@ -48,6 +50,14 @@ php artisan p:extension:pack /path/to/announcements
 
 ## Uninstall
 
+Remove it under **Admin → Extensions**, or from a terminal:
+
 ```sh
 php artisan p:extension:remove announcements
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
+This is a community extension and is not affiliated with or endorsed by Pterodactyl.
