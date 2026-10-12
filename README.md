@@ -27,7 +27,7 @@ Show scheduled announcements to everyone, or only to servers on chosen nodes, lo
 
 ## Install
 
-1. Download `announcements-<version>.pteroext` from the [latest release](https://github.com/Mkkbeydoun/pterodactyl-announcements/releases/latest).
+1. Download `announcements-<version>.pteroext` from the [latest release](https://github.com/Rustix-Development/pterodactyl-announcements/releases/latest).
 2. In the panel, open **Admin → Extensions**, upload the file and enable it.
 3. Reload the panel.
 
