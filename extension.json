@@ -2,7 +2,7 @@
     "$schema": "./node_modules/@pterodactyl/sdk/manifest.schema.json",
     "id": "announcements",
     "name": "Announcements",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Show scheduled announcements to everyone, or only to servers on chosen nodes, locations or eggs.",
     "author": "RustixDev",
     "icon": "megaphone",

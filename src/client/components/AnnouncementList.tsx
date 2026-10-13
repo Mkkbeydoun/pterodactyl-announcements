@@ -30,7 +30,7 @@ export default function AnnouncementList({ items }: { items: Announcement[] }) {
     };
 
     return (
-        <div className={'rxan:mb-4 rxan:flex rxan:flex-col rxan:gap-2'}>
+        <div className={'rxan:mt-0 rxan:mb-3 rxan:flex rxan:flex-col rxan:gap-2'}>
             {visible.map((a) => (
                 <Alert key={a.id} type={a.level} title={a.title}>
                     <div className={'rxan:flex rxan:items-start rxan:justify-between rxan:gap-4'}>

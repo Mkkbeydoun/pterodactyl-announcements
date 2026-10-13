@@ -66,6 +66,14 @@ test('the server banner reads the server announcements query', async () => {
     expect(await screen.findByText('Egg update')).toBeTruthy();
 });
 
+test('the banner block has 12px below it and no top margin, like the other console rows', async () => {
+    render(<AnnouncementList items={[announcement()]} />, { wrapper: host.Wrapper });
+
+    const block = (await screen.findByText('Dismiss')).closest('div.rxan\\:flex-col')!;
+    expect(block.className).toContain('rxan:mb-3');
+    expect(block.className).toContain('rxan:mt-0');
+});
+
 test('datetime-local values round-trip through ISO', () => {
     const iso = fromLocalInput('2026-11-05T14:30');
     expect(iso).not.toBeNull();
