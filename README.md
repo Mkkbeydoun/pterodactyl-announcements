@@ -22,7 +22,7 @@ Show scheduled announcements to everyone, or only to servers on chosen nodes, lo
 
 ## Requirements
 
-- Pterodactyl Panel 2.0 (2.0-develop or later)
+- Pterodactyl Panel v2.0.0-beta.1 or later
 - PHP 8.3+
 
 ## Install
